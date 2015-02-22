@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Mon Nov 24 16:07:30 PST 2014 -->
+<?xml-stylesheet type="text/xsl" href="company.xsl"?>
+<company xsi:noNamespaceSchemaLocation="company.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<department>
+		<deptid>ADM</deptid>
+		<deptname>Admin</deptname>
+		<deptaddr>LA</deptaddr>
+	</department>	
+	
+	<department>
+		<deptid>FIN</deptid>
+		<deptname>Finance</deptname>
+		<deptaddr>LA</deptaddr>
+	</department>
+	
+	<department>
+		<deptid>SER</deptid>
+		<deptname>Services</deptname>
+		<deptaddr>LA</deptaddr>
+	</department>
+	
+	<department>
+		<deptid>OPR</deptid>
+		<deptname>Operations</deptname>
+		<deptaddr>LA</deptaddr>
+	</department>
+	
+	<department>
+		<deptid>BUS</deptid>
+		<deptname>Business</deptname>
+		<deptaddr>LA</deptaddr>
+	</department>
+
+	<employee>
+		<empid>1</empid>
+		<empname>PSmith</empname>
+		<empphone>443-235-3253</empphone>
+		<empoffice>LA</empoffice>
+	</employee>
+	
+	<employee>
+		<empid>2</empid>
+		<empname>Wong</empname>
+		<empphone>224-234-9065</empphone>
+		<empoffice>LA</empoffice>
+	</employee>
+	
+	<employee>
+		<empid>3</empid>
+		<empname>Jack</empname>
+		<empphone>243-235-4566</empphone>
+		<empoffice>LA</empoffice>
+	</employee>
+	
+	<employee>
+		<empid>4</empid>
+		<empname>Anne</empname>
+		<empphone>324-876-3768</empphone>
+		<empoffice>LA</empoffice>
+	</employee>
+	
+	<employee>
+		<empid>5</empid>
+		<empname>Ben</empname>
+		<empphone>453-249-3275</empphone>
+		<empoffice>LA</empoffice>
+	</employee>
+
+	<employee>
+		<empid>6</empid>
+		<empname>Monica</empname>
+		<empphone>935-487-3859</empphone>
+		<empoffice>LA</empoffice>
+	</employee>
+	
+	<employee>
+		<empid>7</empid>
+		<empname>Jennifer</empname>
+		<empphone>935-487-3869</empphone>
+		<empoffice>LA</empoffice>
+	</employee>
+
+	<employee>
+		<empid>8</empid>
+		<empname>Mary</empname>
+		<empphone>932-487-3859</empphone>
+		<empoffice>LA</empoffice>
+	</employee>	
+	
+	<division>
+		<divid>div1</divid>
+		<divname>HR</divname>
+		<divphone>346-232-3242</divphone>
+		<houseddeptid>ADM</houseddeptid>
+		<managerempid>4</managerempid>
+	</division>
+	
+	<division>
+		<divid>div2</divid>
+		<divname>Recruitment</divname>
+		<divphone>346-232-3243</divphone>
+		<houseddeptid>ADM</houseddeptid>
+		<managerempid>1</managerempid>
+	</division>
+	
+	<division>
+		<divid>div3</divid>
+		<divname>SysAd</divname>
+		<divphone>346-232-3244</divphone>
+		<houseddeptid>ADM</houseddeptid>
+		<managerempid>3</managerempid>
+	</division>
+	
+	<division>
+		<divid>div4</divid>
+		<divname>Payroll</divname>
+		<divphone>346-232-3245</divphone>
+		<houseddeptid>FIN</houseddeptid>
+		<managerempid>5</managerempid>
+	</division>
+
+	<division>
+		<divid>div5</divid>
+		<divname>Accounting</divname>
+		<divphone>346-232-3246</divphone>
+		<houseddeptid>FIN</houseddeptid>
+		<managerempid>5</managerempid>
+	</division>
+	
+	<division>
+		<divid>div6</divid>
+		<divname>Networking</divname>
+		<divphone>346-232-3247</divphone>
+		<houseddeptid>SER</houseddeptid>
+		<managerempid>2</managerempid>
+	</division>
+
+	<division>
+		<divid>div7</divid>
+		<divname>SaaS</divname>
+		<divphone>346-232-3248</divphone>
+		<houseddeptid>SER</houseddeptid>
+		<managerempid>2</managerempid>
+	</division>
+
+	<division>
+		<divid>div8</divid>
+		<divname>Security</divname>
+		<divphone>346-232-3249</divphone>
+		<houseddeptid>SER</houseddeptid>
+		<managerempid>1</managerempid>
+	</division>
+
+	<division>
+		<divid>div9</divid>
+		<divname>Convergence</divname>
+		<divphone>346-232-3250</divphone>
+		<houseddeptid>SER</houseddeptid>
+		<managerempid>1</managerempid>
+	</division>
+	
+	<division>
+		<divid>div10</divid>
+		<divname>Sales</divname>
+		<divphone>346-232-3251</divphone>
+		<houseddeptid>OPR</houseddeptid>
+		<managerempid>1</managerempid>
+	</division>
+
+	<division>
+		<divid>div11</divid>
+		<divname>Marketing</divname>
+		<divphone>346-232-3252</divphone>
+		<houseddeptid>OPR</houseddeptid>
+		<managerempid>4</managerempid>
+	</division>
+
+	<division>
+		<divid>div12</divid>
+		<divname>Engineering</divname>
+		<divphone>346-232-3253</divphone>
+		<houseddeptid>OPR</houseddeptid>
+		<managerempid>4</managerempid>
+	</division>
+	
+	<division>
+		<divid>div13</divid>
+		<divname>Business Development</divname>
+		<divphone>346-232-3254</divphone>
+		<houseddeptid>BUS</houseddeptid>
+		<managerempid>1</managerempid>
+	</division>
+
+	<division>
+		<divid>div14</divid>
+		<divname>Business Analysis</divname>
+		<divphone>346-232-3255</divphone>
+		<houseddeptid>BUS</houseddeptid>
+		<managerempid>1</managerempid>
+	</division>	
+	
+	<worksfor>
+		<divid>div1</divid>
+		<empid>4</empid>
+		<percenttime>60</percenttime>
+	</worksfor>
+
+	<worksfor>
+		<divid>div2</divid>
+		<empid>4</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div3</divid>
+		<empid>4</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div13</divid>
+		<empid>4</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div14</divid>
+		<empid>4</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div2</divid>
+		<empid>5</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+
+	<worksfor>
+		<divid>div3</divid>
+		<empid>5</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div4</divid>
+		<empid>5</empid>
+		<percenttime>50</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div5</divid>
+		<empid>5</empid>
+		<percenttime>30</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div2</divid>
+		<empid>3</empid>
+		<percenttime>20</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div3</divid>
+		<empid>3</empid>
+		<percenttime>20</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div8</divid>
+		<empid>3</empid>
+		<percenttime>60</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div2</divid>
+		<empid>6</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div3</divid>
+		<empid>6</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div6</divid>
+		<empid>6</empid>
+		<percenttime>60</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div7</divid>
+		<empid>6</empid>
+		<percenttime>20</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div2</divid>
+		<empid>1</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div3</divid>
+		<empid>1</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div6</divid>
+		<empid>1</empid>
+		<percenttime>15</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div8</divid>
+		<empid>1</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div10</divid>
+		<empid>1</empid>
+		<percenttime>60</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div13</divid>
+		<empid>1</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div9</divid>
+		<empid>1</empid>
+		<percenttime>3</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div14</divid>
+		<empid>1</empid>
+		<percenttime>2</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div2</divid>
+		<empid>2</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div3</divid>
+		<empid>2</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div6</divid>
+		<empid>2</empid>
+		<percenttime>30</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div7</divid>
+		<empid>2</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div1</divid>
+		<empid>2</empid>
+		<percenttime>10</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div8</divid>
+		<empid>2</empid>
+		<percenttime>15</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div4</divid>
+		<empid>2</empid>
+		<percenttime>15</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div7</divid>
+		<empid>7</empid>
+		<percenttime>90</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div2</divid>
+		<empid>7</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div3</divid>
+		<empid>7</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div11</divid>
+		<empid>8</empid>
+		<percenttime>90</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div2</divid>
+		<empid>8</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+	<worksfor>
+		<divid>div3</divid>
+		<empid>8</empid>
+		<percenttime>5</percenttime>
+	</worksfor>
+	
+</company>

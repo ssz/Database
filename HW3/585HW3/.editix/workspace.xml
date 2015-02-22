@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <file open="false" path="/Users/shuzizhang/585HW3/schema.xml" type="XML">
+      <param name="encoding" value="AUTOMATIC"/>
+      <param name="lastView" value="Source"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/hw3.xml" type="XML">
+      <param name="lastView" value="Source"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/query.xml">
+      <param name="encoding" value="AUTOMATIC"/>
+      <param name="lastView" value="Source"/>
+   </file>
+   <file open="true" path="/Users/shuzizhang/585HW3/company.xml" type="XML">
+      <param name="lastView" value="Source"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/query1.xql" type="XQR">
+      <param name="encoding" value="AUTOMATIC"/>
+   </file>
+   <file open="true" path="/Users/shuzizhang/585HW3/company.xsd" type="XSD">
+      <param name="encoding" value="AUTOMATIC"/>
+      <param name="lastView" value="Source"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/query2.xql">
+      <param name="encoding" value="AUTOMATIC"/>
+   </file>
+   <file open="false"
+         path="/Users/shuzizhang/585HW3/query2.xquery"
+         type="XQR">
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file"
+             value="/Users/shuzizhang/585HW3/xqueryResult.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file" value="/Users/shuzizhang/585HW3/query2.xquery"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/query6.xql">
+      <param name="encoding" value="AUTOMATIC"/>
+   </file>
+   <file open="false"
+         path="/Users/shuzizhang/585HW3/query6.xquery"
+         type="XQR">
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file"
+             value="/Users/shuzizhang/585HW3/xqueryResult.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file" value="/Users/shuzizhang/585HW3/query6.xquery"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+   </file>
+   <file open="false"
+         path="/Users/shuzizhang/Desktop/cs585/姜和宝典/hw3/my code/q3.xquery"/>
+   <file open="false"
+         path="/Users/shuzizhang/Desktop/cs585/姜和宝典/hw3/my code/q2.xquery"/>
+   <file open="false"
+         path="/Users/shuzizhang/Desktop/cs585/姜和宝典/hw3/my code/q1.xquery">
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file"
+             value="/Users/shuzizhang/Desktop/cs585/姜和宝典/hw3/my code/xqueryResult.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file"
+             value="/Users/shuzizhang/Desktop/cs585/姜和宝典/hw3/my code/q1.xquery"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+   </file>
+   <file open="false"
+         path="/Users/shuzizhang/585HW3/query1.xquery"
+         type="XQR">
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file"
+             value="/Users/shuzizhang/585HW3/xqueryResult.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file" value="/Users/shuzizhang/585HW3/query1.xquery"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/query3.xql">
+      <param name="encoding" value="AUTOMATIC"/>
+   </file>
+   <file open="true"
+         path="/Users/shuzizhang/585HW3/query3.xquery"
+         type="XQR">
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file"
+             value="/Users/shuzizhang/585HW3/xqueryResult.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file" value="/Users/shuzizhang/585HW3/query3.xquery"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/query4.xql">
+      <param name="encoding" value="AUTOMATIC"/>
+   </file>
+   <file open="false"
+         path="/Users/shuzizhang/585HW3/query4.xquery"
+         type="XQR">
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file"
+             value="/Users/shuzizhang/585HW3/xqueryResult.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file" value="/Users/shuzizhang/585HW3/query4.xquery"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/585HW3/query5.xql">
+      <param name="encoding" value="AUTOMATIC"/>
+   </file>
+   <file open="false"
+         path="/Users/shuzizhang/585HW3/query5.xquery"
+         type="XQR">
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file"
+             value="/Users/shuzizhang/585HW3/xqueryResult.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file" value="/Users/shuzizhang/585HW3/query5.xquery"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+   </file>
+   <file open="false" path="/Users/shuzizhang/Downloads/query6.xquery"/>
+   <file open="true" path="/Users/shuzizhang/585HW3/company.xsl" type="XSLT">
+      <param name="encoding" value="AUTOMATIC"/>
+      <param name="xslt.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+      <param name="xquery.openFile" value="false"/>
+      <param name="xquery.result.file" value="/Users/shuzizhang/585HW3/result.xml"/>
+      <param name="xquery.fop" value="false"/>
+      <param name="xquery.displayFile" value="false"/>
+      <param name="xquery.ok" value="true"/>
+      <param name="xquery.xslt.file" value="/Users/shuzizhang/585HW3/company.xsl"/>
+      <param name="filterFilter" value="false"/>
+      <param name="lastView" value="Source"/>
+      <param name="xquery.data.file" value="/Users/shuzizhang/585HW3/company.xml"/>
+      <param name="xslt.openFile" value="false"/>
+      <param name="xslt.result.file" value="/Users/shuzizhang/585HW3/result.xml"/>
+      <param name="xslt.ok" value="true"/>
+      <param name="xslt.displayFile" value="false"/>
+      <param name="xslt.fop" value="false"/>
+      <param name="xslt.xslt.file" value="/Users/shuzizhang/585HW3/company.xsl"/>
+   </file>
+</root>

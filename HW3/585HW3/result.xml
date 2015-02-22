@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <head>
+      <title>Zishu 585HW3</title>
+      <style type="text/css"/>
+   </head>
+   <body>
+      <div id="1">
+         <h1 style="color:red; font-size:24px; font-weight:bold; background-color:yellow; font-family:Arial;">Employee Information</h1>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>PSmith</b> 
+							works from <b>LA</b> office. 
+							<b>PSmith</b> works for 
+							<b>8</b> divisions, 
+							which are <b>Recruitment</b>, <b>SysAd</b>, <b>Networking</b>, <b>Security</b>, <b>Sales</b>, <b>Business Development</b>, <b>Convergence</b>, and <b>Business Analysis</b>. 
+							
+							<b>PSmith</b>
+							manages <b>6</b> division(s),
+							which are <b>Recruitment</b>, <b>Security</b>, <b>Convergence</b>, <b>Sales</b>, <b>Business Development</b>, and <b>Business Analysis</b>. 
+							
+							<b>PSmith</b>
+							 works for most time with the <b>Sales</b>
+									divison.
+								</p>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>Wong</b> 
+							works from <b>LA</b> office. 
+							<b>Wong</b> works for 
+							<b>7</b> divisions, 
+							which are <b>Recruitment</b>, <b>SysAd</b>, <b>Networking</b>, <b>SaaS</b>, <b>HR</b>, <b>Security</b>, and <b>Payroll</b>. 
+							
+							<b>Wong</b>
+							manages <b>2</b> division(s),
+							which are <b>Networking</b>, and <b>SaaS</b>. 
+							
+							<b>Wong</b>
+							 works for most time with the <b>Networking</b>
+									divison.
+								</p>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>Jack</b> 
+							works from <b>LA</b> office. 
+							<b>Jack</b> works for 
+							<b>3</b> divisions, 
+							which are <b>Recruitment</b>, <b>SysAd</b>, and <b>Security</b>. 
+							
+							<b>Jack</b>
+							manages <b>1</b> division(s),
+							which are <b>SysAd</b>. 
+							
+							<b>Jack</b>
+							 works for most time with the <b>Security</b>
+									divison.
+								</p>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>Anne</b> 
+							works from <b>LA</b> office. 
+							<b>Anne</b> works for 
+							<b>5</b> divisions, 
+							which are <b>HR</b>, <b>Recruitment</b>, <b>SysAd</b>, <b>Business Development</b>, and <b>Business Analysis</b>. 
+							
+							<b>Anne</b>
+							manages <b>3</b> division(s),
+							which are <b>HR</b>, <b>Marketing</b>, and <b>Engineering</b>. 
+							
+							<b>Anne</b>
+							 works for most time with the <b>HR</b>
+									divison.
+								</p>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>Ben</b> 
+							works from <b>LA</b> office. 
+							<b>Ben</b> works for 
+							<b>4</b> divisions, 
+							which are <b>Recruitment</b>, <b>SysAd</b>, <b>Payroll</b>, and <b>Accounting</b>. 
+							
+							<b>Ben</b>
+							manages <b>2</b> division(s),
+							which are <b>Payroll</b>, and <b>Accounting</b>. 
+							
+							<b>Ben</b>
+							 works for most time with the <b>Payroll</b>
+									divison.
+								</p>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>Monica</b> 
+							works from <b>LA</b> office. 
+							<b>Monica</b> works for 
+							<b>4</b> divisions, 
+							which are <b>Recruitment</b>, <b>SysAd</b>, <b>Networking</b>, and <b>SaaS</b>. 
+							
+							<b>Monica</b>
+							manages <b>0</b> division(s),
+							which are . 
+							
+							<b>Monica</b>
+							 works for most time with the <b>Networking</b>
+									divison.
+								</p>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>Jennifer</b> 
+							works from <b>LA</b> office. 
+							<b>Jennifer</b> works for 
+							<b>3</b> divisions, 
+							which are <b>SaaS</b>, <b>Recruitment</b>, and <b>SysAd</b>. 
+							
+							<b>Jennifer</b>
+							manages <b>0</b> division(s),
+							which are . 
+							
+							<b>Jennifer</b>
+							 works for most time with the <b>SaaS</b>
+									divison.
+								</p>
+         <p style="font-size:12px; font-family:Arial;">
+							Employee <b>Mary</b> 
+							works from <b>LA</b> office. 
+							<b>Mary</b> works for 
+							<b>3</b> divisions, 
+							which are <b>Marketing</b>, <b>Recruitment</b>, and <b>SysAd</b>. 
+							
+							<b>Mary</b>
+							manages <b>0</b> division(s),
+							which are . 
+							
+							<b>Mary</b>
+							 works for most time with the <b>Marketing</b>
+									divison.
+								</p>
+      </div>
+      <div id="2">
+         <h1 style="color:red; font-size:24px; font-weight:bold; background-color:LightGreen; font-family:Arial;">Department Information</h1>
+         <p style="font-size:12px; font-family:Arial;">
+						Department <b>Admin</b>
+						houses <b>3</b> 
+						division(s): <b>
+               <b>HR</b>, <b>Recruitment</b>, and <b>SysAd</b>
+            </b>
+         </p>
+         <p style="font-size:12px; font-family:Arial;">
+						Department <b>Finance</b>
+						houses <b>2</b> 
+						division(s): <b>
+               <b>Payroll</b>, and <b>Accounting</b>
+            </b>
+         </p>
+         <p style="font-size:12px; font-family:Arial;">
+						Department <b>Services</b>
+						houses <b>4</b> 
+						division(s): <b>
+               <b>Networking</b>, <b>SaaS</b>, <b>Security</b>, and <b>Convergence</b>
+            </b>
+         </p>
+         <p style="font-size:12px; font-family:Arial;">
+						Department <b>Operations</b>
+						houses <b>3</b> 
+						division(s): <b>
+               <b>Sales</b>, <b>Marketing</b>, and <b>Engineering</b>
+            </b>
+         </p>
+         <p style="font-size:12px; font-family:Arial;">
+						Department <b>Business</b>
+						houses <b>2</b> 
+						division(s): <b>
+               <b>Business Development</b>, and <b>Business Analysis</b>
+            </b>
+         </p>
+      </div>
+   </body>
+</html>

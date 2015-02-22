@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XSD document created with EditiX XML Editor (http://www.editix.com) at Tue Nov 25 10:27:37 PST 2014 -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xs:element name="deptid">
+	<xs:simpleType>
+  		<xs:restriction base="xs:string">
+      		<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="deptname">
+	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="deptaddr">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+
+<xs:element name="empid">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="empname">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="empphone">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    	 	<xs:pattern value="[1-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]"/>
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="empoffice">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+
+<xs:element name="divid">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="divname">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="divphone">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    	 	<xs:pattern value="[1-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]"/>
+    	</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="houseddeptid">
+	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<xs:element name="managerempid">
+	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+<!--
+<xs:element name="houseddeptid">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    		<xs:pattern value="[A-Z][A-Z][A-Z]"/>
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+-->
+<xs:element name="percenttime">
+  	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+    		</xs:restriction>
+  	</xs:simpleType>
+</xs:element>
+
+
+<!-- definition of complex elements -->
+<xs:element name="company">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element ref="department" maxOccurs="unbounded"/>
+      		<xs:element ref="employee" maxOccurs="unbounded"/>
+      		<xs:element ref="division" maxOccurs="unbounded"/>
+      		<xs:element ref="worksfor" maxOccurs="unbounded"/>
+    	</xs:sequence>
+</xs:complexType>
+<xs:key name="PKdeptid">
+	<xs:selector xpath="department/deptid"/>
+      	<xs:field xpath="."/>
+</xs:key>
+<xs:key name="PKdivid">
+	<xs:selector xpath="division/divid"/>
+      	<xs:field xpath="."/>
+</xs:key>
+<xs:key name="PKempid">
+       <xs:selector xpath="employee/empid"/>
+       <xs:field xpath="."/>
+</xs:key>
+<xs:keyref name="FKhousedDeptId" refer="PKdeptid">
+	<xs:selector xpath="division/houseddeptid"/>
+      	<xs:field xpath="."/>
+</xs:keyref>
+<xs:keyref name="FKmanagerEmpId" refer="PKempid">
+	<xs:selector xpath="division/managerempid"/>
+      	<xs:field xpath="."/>
+</xs:keyref>
+<xs:keyref name="FKdname" refer="PKdivid">
+	<xs:selector xpath="worksfor/divid"/>
+      	<xs:field xpath="."/>
+</xs:keyref>
+<xs:keyref name="FKssn" refer="PKempid">
+	<xs:selector xpath="worksfor/empid"/>
+      	<xs:field xpath="."/>
+</xs:keyref>
+</xs:element>
+
+<xs:element name="department">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element ref="deptid"/>
+      		<xs:element ref="deptname"/>
+      		<xs:element ref="deptaddr"/>
+    	</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="employee">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element ref="empid"/>
+      		<xs:element ref="empname"/>
+      		<xs:element ref="empphone"/>
+      		<xs:element ref="empoffice"/>
+    	</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="division">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element ref="divid"/>
+      		<xs:element ref="divname"/>
+      		<xs:element ref="divphone"/>
+      		<xs:element ref="houseddeptid"/>
+      		<xs:element ref="managerempid"/>
+    	</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:element name="worksfor">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element ref="divid"/>
+      		<xs:element ref="empid"/>
+      		<xs:element ref="percenttime"/>
+    	</xs:sequence>
+</xs:complexType>
+</xs:element>
+
+
+</xs:schema>
